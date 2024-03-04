@@ -13,7 +13,7 @@ jawaban1, jawaban2 = st.tabs(["Jawaban Pertanyaan1", "Jawaban Pertanyaan 2"])
 with jawaban1:
     st.header('Jawab Pertanyaan 1')
     st.write('Apa Relasi antara O3 dengan SO2, NO2, dan CO?')
-    df_visual2 = pd.read_csv('https://github.com/DaFredGene/dashboard/blob/main/dashboard1/df_visual.csv')
+    df_visual2 = pd.read_csv('https://github.com/DaFredGene/dashboard/blob/400d06836c09ec2e94a85ed40b15ef40f9e94540/dashboard1/df_visual.csv')
     df_visual1 = df_visual2.iloc[6:]
     df_visual = df_visual2.iloc[1:4]
     st.image("https://i.ibb.co/yBFMsGw/FBFE19-FC-9-DA5-401-C-B19-D-5-C4317-CF414-B.jpg")
